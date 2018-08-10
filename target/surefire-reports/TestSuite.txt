@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.589 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.496 s <<< FAILURE! - in TestSuite
+testMethod(prueba.test)  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /home/hector/eclipse-workspace/prueba/C:\chromedriver.exe
+	at prueba.test.testMethod(test.java:21)
+
