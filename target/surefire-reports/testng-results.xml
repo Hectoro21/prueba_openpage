@@ -1,59 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="76" started-at="2018-08-10T13:15:25Z" finished-at="2018-08-10T13:15:25Z">
+  <suite name="Suite" duration-ms="11910" started-at="2018-08-10T13:50:58Z" finished-at="2018-08-10T13:51:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="76" started-at="2018-08-10T13:15:25Z" finished-at="2018-08-10T13:15:25Z">
+    <test name="Test" duration-ms="11910" started-at="2018-08-10T13:50:58Z" finished-at="2018-08-10T13:51:10Z">
       <class name="prueba.test">
-        <test-method status="FAIL" signature="testMethod()[pri:0, instance:prueba.test@3d8c7aca]" name="testMethod" duration-ms="57" started-at="2018-08-10T09:15:25Z" finished-at="2018-08-10T09:15:25Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /home/hector/eclipse-workspace/prueba/C:\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/hector/eclipse-workspace/prueba/C:\chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at prueba.test.testMethod(test.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:prueba.test@3d8c7aca]" name="testMethod" duration-ms="11902" started-at="2018-08-10T09:50:58Z" finished-at="2018-08-10T09:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
