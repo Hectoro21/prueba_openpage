@@ -15,7 +15,7 @@ public class test {
 	public void testMethod()
 	
 	{	
-		//WebDriver driver; //Variable global//declaración y creación de instancias de objetos / variables
+		WebDriver driver; //Variable global//declaración y creación de instancias de objetos / variables
 		//System.setProperty ("webdriver.firefox.marionette", "/home/hector/eclipse-workspace/prueba/driver/geckodriver");
 		//driver = new FirefoxDriver (); //vuelvo a cargar el browser
 		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
